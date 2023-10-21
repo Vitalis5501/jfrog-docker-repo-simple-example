@@ -1,8 +1,10 @@
+20:45:51 [🔵Info] Creating repository ''...
+20:45:51 [🚨Error] server response: 405
 {
-  "rclass" : "local",
-  "packageType" : "docker",
-  "dockerApiVersion" : "V2",
-  "description" : "docker-obs-titan-Local-repo",
-  "repoLayoutRef" : "simple-default",
-  "dockerTagRetentionDays" : 2
+  "errors": [
+    {
+      "status": 405,
+      "message": "Method Not Allowed"
+    }
+  ]
 }
